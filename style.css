@@ -5,17 +5,21 @@
   margin-top:10px;
 }
 
+/* I used this earlier (files still included in) but I decided to get them from google's service instead
+
 @font-face{
   font-family: Outfit;
   src: url(./Fonts/Outfit-Bold.ttf);
   font-weight:bold;
-}
+} 
 
 @font-face{
   font-family: Outfit;
   src: url(./Fonts/Outfit-Regular.ttf);
   font-weight:normal;
 }
+
+*/
 
 .QRCode {
   width: 270px;
@@ -41,8 +45,8 @@ h1 {
  font-size: 18px;
  font-weight: bold;
  text-align: center;
- font-family: Outfit, serif;
- font-weight: bold;
+ font-family: 'Outfit', sans-serif;
+ font-weight: 700;
  width:240px;
  height:50px;
  left:50%;
@@ -54,8 +58,8 @@ p {
   color: rgb(124, 124, 124);
   font-size: 13px;
   text-align: center;
-  font-family: Outfit, serif;
-  font-weight: normal;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
   width:220px;
   height:50px;
   left:50%;
