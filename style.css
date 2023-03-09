@@ -41,7 +41,7 @@ h1 {
  font-size: 18px;
  font-weight: bold;
  text-align: center;
- font-family: Outfit;
+ font-family: Outfit, serif;
  font-weight: bold;
  width:240px;
  height:50px;
@@ -54,7 +54,7 @@ p {
   color: rgb(124, 124, 124);
   font-size: 13px;
   text-align: center;
-  font-family: Outfit;
+  font-family: Outfit, serif;
   font-weight: normal;
   width:220px;
   height:50px;
