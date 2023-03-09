@@ -5,6 +5,18 @@
   margin-top:10px;
 }
 
+@font-face{
+  font-family: Outfit;
+  src: url(./Fonts/Outfit-Bold.ttf);
+  font-weight:bold;
+}
+
+@font-face{
+  font-family: Outfit;
+  src: url(./Fonts/Outfit-Regular.ttf);
+  font-weight:normal;
+}
+
 .QRCode {
   width: 270px;
   height: 420px;
@@ -29,8 +41,8 @@ h1 {
  font-size: 18px;
  font-weight: bold;
  text-align: center;
- font-family: Helvetica;
- font-weight: 700;
+ font-family: Outfit;
+ font-weight: bold;
  width:240px;
  height:50px;
  left:50%;
@@ -42,8 +54,8 @@ p {
   color: rgb(124, 124, 124);
   font-size: 13px;
   text-align: center;
-  font-family: Helvetica;
-  font-weight: 400;
+  font-family: Outfit;
+  font-weight: normal;
   width:220px;
   height:50px;
   left:50%;
